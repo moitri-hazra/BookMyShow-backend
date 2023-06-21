@@ -3,7 +3,7 @@ require("dotenv").config();
 
 // Get the MongoDB URI from the environment variables or use a default local URL
 const mongoLiveURI =
-  process.env.MONGO_URL || "mongodb+srv://moitriHazra:<8942898688Moi>@cluster0.dzxavsq.mongodb.net/?retryWrites=true&w=majority";
+  process.env.MONGO_URL || "mongodb+srv://moitriHazra:8942898688Moi@cluster0.dzxavsq.mongodb.net/?retryWrites=true&w=majority";
 
 // Function to connect to the MongoDB database
 const connectToMongo = async () => {
